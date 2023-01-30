@@ -37,6 +37,20 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+<dependency>
+    <groupId>io.jsonwebtoken</groupId>
+    <artifactId>jjwt</artifactId>
+    <version>0.9.1</version>
+</dependency>
+
+<!-- for above version of java 8 -->
+
+<dependency>
+    <groupId>javax.xml.bind</groupId>
+    <artifactId>jaxb-api</artifactId>
+    <version>2.3.1</version>
+</dependency>
+
 		<dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
